@@ -6,7 +6,7 @@ const app = express();
 app.use(bodyParser.urlencoded({extended:true}));
 
 app.get("/", function(req, res){
-    res.send("<h1>Welcome to BMI Calculator.<br> It is just a simple BMI Calculator</h1>");
+    res.send("<h1>Welcome to BMI Calculator.</h1>");
 });
 
 app.get("/bmiCalculator", function(req, res){
